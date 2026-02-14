@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Youtube, Instagram, Music2, Facebook, ChevronLeft, ChevronRight } from 'lucide-react';
 import styles from './Home.module.css';
 
-const API_BASE = import.meta.env.VITE_API_URL || '/api';
+const API_BASE = 'downloader-tool-production.up.railway.app/api';
 
 export default function Home() {
   const [url, setUrl] = useState('');
